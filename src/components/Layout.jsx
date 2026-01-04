@@ -1,13 +1,20 @@
-import { Box } from '@mui/material';
+import Features from './Features'
+import Footer from './Footer'
+import Header from './Header'
+import HeroSection from './HeroSection'
 
-function Layout({children}) {
+function Layout() {
   return (
-    <Box sx={{ display: "flex" }}>
-      <Box component="main" sx={{ flexGrow: 1, p: 3, mt: 8, ml: "220px" }}>
-        {children}
-      </Box>
-    </Box>
-  );
+    <div>
+      
+
+        <Header/>
+        <HeroSection/>
+        <Features/>
+        <Footer/>
+        
+    </div>
+  )
 }
 
-export default Layout;
+export default Layout

@@ -1,16 +1,10 @@
-import Layout from "./Layout";
-
 function Footer() {
   return (
-    <Layout>
-      <Box sx={{ backgroundColor: "#0d47a1", color: "#fff", py: 3 }}>
-        <Container textAlign="center">
-          <Typography variant="body2">
-            © {new Date().getFullYear()} Atten Go. All rights reserved.
-          </Typography>
-        </Container>
-      </Box>
-    </Layout>
+    <footer class="bg-gray-900 text-gray-300">
+      <div class="max-w-7xl mx-auto px-4 py-6 text-center">
+        <p>© 2025 AttenGo – Mini Project University</p>
+      </div>
+    </footer>
   );
 }
 
